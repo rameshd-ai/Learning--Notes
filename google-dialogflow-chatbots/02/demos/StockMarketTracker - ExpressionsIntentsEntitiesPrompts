@@ -1,0 +1,73 @@
+User Expressions:
+-----------------
+
+Give me the opening price of Apple on November 5th, 2017
+Get me the closing price of Google yesterday
+What was the @price_type:price_type of @company_name:company_name on @sys.date:date
+What was IBM at on Tuesday
+Facebook yesterday
+I'm interested in Google
+Tell me about Apple
+
+Entities:
+---------
+company_name
+
+Apple
+Google
+Microsoft
+IBM
+Facebook
+Amazon
+
+
+price_type
+
+opening
+closing
+high, maximum
+low, minimum
+
+
+company_name prompts:
+---------------------
+
+What company would you like information on? I have prices for Google, Apple, Amazon, IBM, Facebook and Microsoft
+
+Would you like information on Google, Apple, Amazon, IBM, Facebook or Microsoft?
+
+
+price_type prompts:
+---------------------
+
+Would you like opening, closing, high or low price?
+
+I have opening, closing, high and low prices, which one are you interested in?
+
+
+sys.date prompts:
+-----------------
+
+What date would you like this information for?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

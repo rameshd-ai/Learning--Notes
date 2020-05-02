@@ -1,0 +1,102 @@
+Entities:
+---------
+
+flight_type:
+non-stop
+single-stop
+multiple-stops
+
+car_type:
+sedan
+hatchback
+convertible
+SUV
+compact
+
+room_type:
+"master suite","deluxe"
+"mini suite","junior"
+"single","single"
+"twin","twin"
+"double","double"
+"queen","queen"
+"king","king"
+
+
+
+Flights:
+--------
+
+Book a flight
+Book flight tickets
+Reserve flights
+Book a flight for November 20th, 2017
+Book a flight for tomorrow
+Book a @flight_type:flight_type flight for @sys.date:date
+Reserve a flight for next Tuesday
+Book a flight from Bangalore to Mumbai for tomorrow
+Flight from Delhi to Chennai on November 20th, 2017
+Non-stop flights from Delhi to Chennai on November 20th, 2017
+
+Prompts:
+
+date:
+What date do you want me to book tickets for?
+
+from:
+Where are you flying from?
+
+to:
+Where are you flying to?
+What's your destination?
+
+
+
+Rooms:
+------
+Book a room
+Book a room in New York
+Book a queen sized room in Bangalore
+Book a king in Chennai for tomorrow
+Book a deluxe room in Chicago for November 28th, 2017
+
+Prompts:
+
+location:
+Which city do you need this booking for?
+
+date:
+What date do you want the room for?
+
+
+Cars:
+-----
+
+Book a car
+Book a car in San Francisco
+Reserve a car in Bangalore for Friday
+Reserve a sedan in Bangalore on December 10th, 2017
+Book a convertible in Seattle
+
+
+location:
+Which city do you need this booking for?
+
+date:
+What date do you want the car?
+
+car_type:
+What kind of car do you want? I have sedans, convertibles, hatchbacks, SUVs and compacts.
+
+
+
+
+
+
+
+
+
+
+
+
+
